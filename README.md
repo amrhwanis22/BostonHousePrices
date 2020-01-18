@@ -1,11 +1,11 @@
-# Table of Contents
+## Table of Contents
 1)    Installation
 2)    Project Motivation
 3)    File Descriptions
 4)    Results
 5)    Licensing, Authors, and Acknowledgements
 
-# Installation
+## Installation
 
 
 
@@ -14,11 +14,11 @@
 
 
 
-# Project Motivation
+## Project Motivation
 
-# File Descriptions
+## File Descriptions
 
-# Results
+## Results
 
 
-# Licensing, Authors, and Acknowledgements
+## Licensing, Authors, and Acknowledgements
