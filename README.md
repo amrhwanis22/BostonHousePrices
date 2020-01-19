@@ -25,7 +25,7 @@ For this project I was intrested in Boston house prices dataset from kaggle tryi
 There is 1 notebook containing the answer for above questions, also directory contating dataset used in this notebook
 
 ## Results
-The main findings can be found [here](#here)
+The main findings can be found [here](Boston.ipynb)
 
 ## Licensing, Authors, and Acknowledgements
 The dataset used for this project downoaded from kaggle with AirBnB.
