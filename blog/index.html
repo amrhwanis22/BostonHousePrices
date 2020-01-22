@@ -43,25 +43,16 @@
 
           <p>The Boston dataset is open for any one to use for practice to enhance your skills.</p>
 
-          <p>Well I've used CRISP-DM process for this analysis which is used by many data scientist, this process is separated in 6 modules.</p>
-          <ul>
-            <li>Develop business understanding</li>
-            <li>Develop data understanding</li>
-            <li>Preparing data</li>
-            <li>Modeling data</li>
-            <li>Evaluating results</li>
-            <li>Develop changes according on your results</li>
-          </ul>
-          <p>As you probably noticed, we cant model any data here, we will just explore the data using statistical analysis.</p>
+          <p>As you probably noticed, we can't model any data here, we will just explore the data using statistical analysis.</p>
           <p>Let's get started!</p>
 
           <h4>Business and data understanding </h4>
           <p>Well i'started looking at the listing data and then I was very curious about what is the most effective thing that can affect prices?</p>
 
-          <p>At the first glance I saw a low of things that can be very effective from the listing such as bed type,number of bathrooms, number of rooms, and also some data about the host! .</p>
+          <p>At the first glance I saw a low of things that can be very effective from the listing such as bed type,number of bathrooms, number of rooms, and also some data about the host!</p>
 
 
-          <p>From looking at this data I decided that these are the 3 questions that we will explore </p>
+          <p>From looking at this data I decided that these are the 3 questions that we will explore.</p>
           <ol>
             <li>What are the property types according to prices?</li>
             <li>Does city affect price?</li>
@@ -70,7 +61,7 @@
           <h3>Data Preparation, and answers to the questions</h3>
           <p>Fortunately, to answer all of the questions I didn't need to use all the features in the dataset it was huge i only needed feature that was almost clean so I had to do very little changes.</p>
 
-          <p>The main features that I used for the analysis were:</p>
+          <p>The main features that I used for this analysis were:</p>
             <ul>
               <li>accommodates: number of persons</li>
               <li>bathrooms: number of bathrooms</li>
@@ -85,44 +76,49 @@
               <li>neighbourhood: in which neighbourhood</li>
               <li>host_is_superhost: is host is super generous</li>
               <li>property_type: apt, house, shared room, etc. </li>
-              <li>minimum nights: minimum number of nights that gust can stay. </li>
-              <li>maximum nights: maximum number of nights that gust can stay. </li>
+              <li>minimum nights: minimum number of nights that gust can stay</li>
+              <li>maximum nights: maximum number of nights that gust can stay</li>
             </ul>
-          <p>Now after explaining features used in a high level it's time to view some statistics and charts. </p>
+          <p>Now after explaining features used in a high level it's time to view some statistics and charts.</p>
 
             <h4>1. What are the property types according to prices?</h4>
 
           <img src="Pictures/pptype.PNG" width="500" height="500">
 
-          <p>As we can see from our chart shows that for all property types that the range goes from around 24$ to 2500$, and that apartment has the most expensive value</p>
+          <p>As we can see from our chart shows that for all property types that the range goes from around 24$ to 2500$, and that apartment followed by house which means that your the prices of the apartment could be doubled even tripled from price of houses which is very interesting.</p>
           <p>Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.</p>
           <img src="Pictures/roomdist.PNG" width="500" height="500">
-          <p>Also we can see from our image that the most rented types are Entire house/apt coming next private room.</p>
+          <p>We can see from our image that the most rented types are Entire house/apt coming next private room.</p>
 
           <h4>2. Does city affect price?</h4>
           <img src="Pictures/citycleansed.PNG" width="500" height="500">
 
           <p>
-            To answer this question we need to go a little bit deeper into features as we can see that South End Boston is the most expensive, also we can do more things to check on bathrooms and bedrooms 
+            To answer this question we need to go a little bit deeper into features as we can see that South End Boston is the most expensive, also we can do more by checking on bathrooms and bedrooms.
           </p>
           <img src="Pictures/bedrooms.PNG" width="500" height="500">
 
-          <p>We can conclude from here that the bedrooms increase the price of property and apt</p>
+          <p>We can conclude from here that the bedrooms increase the price of property and apt.</p>
           <img src="Pictures/bathrooms.PNG" width="500" height="500">
-          <p>Also the price of bathrooms increase till reaches 4 bathrooms that each house/apt that has up to 4 bathrooms it's rented for 1200$</p>
-          <h4>3.What is the most expensive neighbourhood ?</h4>
+          <p>In addition of the price of rented house increase directly proportional with bathrooms increase till reaches 4 bathrooms that each house/apt that has up to 4 bathrooms it's rented for 1200$.</p>
+          <h4>3. What is the most expensive neighbourhood?</h4>
 
           <img src="Pictures/neigbour.PNG" width="500" height="500">
           <p>
-            Well it seems that some neighbourhoods are more expensive which reached more than 300$, also South Boston Waterfront seems to be the most expensive, I think it worth.
+            Well it seems that some neighbourhoods are more expensive which reached more than 300$, this means that every neighbourhood had it's own price during to services that the neighbourhood offer in addition of service provided by the host,also South Boston Waterfront seems to be the most expensive, I think it worth.
+          </p>
+          <img src="Pictures/review_gustesinclude.png" height="500" width="500">
+          <p>
+          Moreover the prices are getting higher directly with review score which means that as long there is guest included prices may reach up to 500$.
           </p>
           <p>
-
             Hope you enjoyed reading my post and here is a bonus chart for you.
           </p>
-          <img src="Pictures/corrlistings.PNG" width="500" height="500">
+          <img src="Pictures/negihbout_gusets.png" width="500" height="500">
           <p>
-            the correlation between prices and other data from here we can conclude when the correlation values nears to 1 then it's highly correlated data the max value from this chart between number of beds and accommodates.
+
+            At this point we can tell that prices of gusts included can be doubled to include 1 guest and two guests, in addition of Jamaica Plain has the highest rent value with 1 guest only!
+
           </p>
         </div>
       </div>
